@@ -4,7 +4,7 @@ def validate(hand):
     return True
 
 def print_hand(hand, name='Guest'):
-    hands = ['Rock', 'Paper', 'Scissors']
+    hands = ['Stone', 'Paper', 'Scissors']
     print(name + ' picked: ' + hands[hand])
 
 def judge(player, computer):
@@ -22,10 +22,10 @@ def judge(player, computer):
 
 import random
 
-print('Starting the Rock Paper Scissors game!')
+print('Starting the Stone Paper Scissors game!')
 player_name = input('Please enter your name: ')
 
-print('Pick a hand: (0: Rock, 1: Paper, 2: Scissors)')
+print('Pick a hand: (0: Stone, 1: Paper, 2: Scissors)')
 player_hand = int(input('Please enter a number (0-2): '))
 
 if validate(player_hand):
